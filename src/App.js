@@ -4,7 +4,7 @@ import ChartContainer from './containers/ChartContainer';
 function App() {
   return (
     <div class="App">
-      <h1>Top of The Pops</h1>
+      <img src={`${process.env.PUBLIC_URL}/totp_logo.jpeg`} width="250" alt="Yer Maw"/>
       <ChartContainer/>
     </div>
   );

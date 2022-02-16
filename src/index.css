@@ -1,10 +1,69 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Oswald;
+  background-color: black;
+  color: blanchedalmond;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("/public/the_beast_of_savile.jpeg")
+}
+
+img {
+  border-radius: 10px;
+  border: dotted 5px goldenrod;
+}
+
+#chart-container{
+  background-color: rgba(34, 34, 34, 0.5);
+  margin: auto;
+  width: 80%;
+  border-radius: 10px;
+  border: solid 5px greenyellow;
+}
+
+#song-container{
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  border: solid blanchedalmond 2px;
+  background-color: rgb(100, 100, 100);
+}
+
+#chart-position {
+  font-size: 24px;
+  padding: 10px;
+  border: dotted 10px rgba(173, 255, 47, 0.5);
+  border-radius: 5px;
+  background-image: linear-gradient(to top, rgba(198, 201, 44, 0.5) 0%, rgba(35, 36, 30, 0.5) 100%);
+}
+
+#song-info {
+  width: 40%;
+}
+
+#song-title{
+  font-size: 36px;
+  line-height: 1;
+}
+
+#song-artist{
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#fine-print{
+  font-size: 8px;
+  font-style: italic;
+  padding: 5px 0px 0px 0px;
+}
+
+#song-player {
+  padding: 50px 0px 0px 0px;
 }
 
 code {

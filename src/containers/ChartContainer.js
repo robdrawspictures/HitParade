@@ -22,8 +22,8 @@ const ChartContainer = () => {
     }
 
     return (
-        <div class="chart-container">
-        <h2>Hit Parade or Shit Parade?</h2>
+        <div id="chart-container">
+        <h2>Select Genre To Display Chart</h2>
         <select defaultValue="" onChange={handleChange}>
             <option value="">
                 Choose Genre

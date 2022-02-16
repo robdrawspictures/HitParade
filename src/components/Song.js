@@ -10,8 +10,8 @@ const Song = (song) => {
             <img src={song.image} alt={song.title} />
         </div>
         <div id="song-info">
-            <h3>'{song.title}'</h3>
-            <p>by {song.artist}</p>
+            <h3 id="song-title">'{song.title}'</h3>
+            <p id="song-artist">by {song.artist}</p>
             <p id="fine-print">{song.label}</p>
         </div>
         <audio id="song-player" controls>
