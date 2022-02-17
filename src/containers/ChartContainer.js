@@ -11,8 +11,9 @@ const ChartContainer = () => {
 
     const getSongs = function(url){
         fetch(url)
-        .then(res => res.json())
+        .then(res => res.json()) // <- Top Tip: 'res' is shorthand for result.
         .then(data => setSongs(data.feed.entry))
+        .catch(err => console.error)
     }
 
     const handleChange = function(event){

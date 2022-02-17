@@ -3,9 +3,7 @@ import React from "react";
 const Song = (song) => {
     return (
     <div id='song-container'>
-        <div id="chart-position">
-            <h1>{song.position}</h1>
-        </div>
+        <h1 id="chart-position">{song.position}</h1>
         <div id="song-img">
             <img src={song.image} alt={song.title} />
         </div>

@@ -5,7 +5,7 @@ body {
   color: blanchedalmond;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("/public/the_beast_of_savile.jpeg")
+  background-image: url("/public/old_grey_whistle_test.jpeg")
 }
 
 img {
@@ -36,9 +36,10 @@ img {
 #chart-position {
   font-size: 24px;
   padding: 10px;
-  border: dotted 10px rgba(173, 255, 47, 0.5);
+  height: 30px;
+  border: solid 3px rgba(173, 255, 47, 1);
   border-radius: 5px;
-  background-image: linear-gradient(to top, rgba(198, 201, 44, 0.5) 0%, rgba(35, 36, 30, 0.5) 100%);
+  background-image: linear-gradient(to top, rgb(44, 201, 175) 0%, rgb(16, 27, 63) 100%);
 }
 
 #song-info {
